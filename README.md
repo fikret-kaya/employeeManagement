@@ -45,12 +45,3 @@ Please provide a solution with the  above features with the following considerat
 	- /fetch/{employeeId}  : fetch employee details with given id
 	- /update (POST)		: update the status of the given employee (id)
 
-
-Notes: 
-	- Tests for service and controller layers are included
-	- Git is used
-
-
-
-
-
