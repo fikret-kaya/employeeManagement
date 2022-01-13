@@ -1,12 +1,6 @@
-
-
-WorkMotion (www.workmotion.com) is a global HR platform enabling companies to hire & onboard their employees internationally, at the push of a button. It is our mission to create opportunities for anyone to work from anywhere. As work is becoming even more global and remote, there has never been a bigger chance to build a truly global HR-tech company.
-
-
-As a part of our backend engineering team, you will be responsible for building our core platform including an  employees managment system.
+# Employee Management System
 
 The employees on this system are assigned to different states, Initially when an employee is added it will be assigned "ADDED" state automatically .
-
 
 The other states (State machine) for A given Employee are:
 - ADDED
@@ -39,7 +33,22 @@ Please provide a solution with the  above features with the following considerat
 - Please provide testing for your solution.
 - Providing an API Contract e.g. OPENAPI spec. is a big plus
 
+## How to Run
 
+- Docker file added in order to run the application. Following commands can be used to run the app:
+	-> docker build -t em .
+	-> docker run -d -p 8080:8080 em
+
+
+- The api provides following 3 endpoints:
+	-> /create (POST) 		: to add new employee to the database
+	-> /fetch/{employeeId}  : fetch employee details with given id
+	-> /update (POST)		: update the status of the given employee (id)
+
+
+Notes: 
+	-> Tests for service and controller layers are included
+	-> Git is used
 
 
 
