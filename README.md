@@ -36,19 +36,19 @@ Please provide a solution with the  above features with the following considerat
 ## How to Run
 
 - Docker file added in order to run the application. Following commands can be used to run the app:
-	-> docker build -t em .
-	-> docker run -d -p 8080:8080 em
+	- docker build -t em .
+	- docker run -d -p 8080:8080 em
 
 
 - The api provides following 3 endpoints:
-	-> /create (POST) 		: to add new employee to the database
-	-> /fetch/{employeeId}  : fetch employee details with given id
-	-> /update (POST)		: update the status of the given employee (id)
+	- /create (POST) 		: to add new employee to the database
+	- /fetch/{employeeId}  : fetch employee details with given id
+	- /update (POST)		: update the status of the given employee (id)
 
 
 Notes: 
-	-> Tests for service and controller layers are included
-	-> Git is used
+	- Tests for service and controller layers are included
+	- Git is used
 
 
 
